@@ -2,17 +2,17 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.images, .descriptions{
+.content{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 52px;
-}
-
-.text{
-  flex-wrap: wrap;
-  max-width: 200px;
   text-align: center;
 }
+
+.grouped{
+  max-width: 200px;
+}
+
 img {
   width: 100px;
   height: 100px;
@@ -21,8 +21,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-bottom: 32px;
 }
 
